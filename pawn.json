@@ -1,0 +1,22 @@
+{
+    "user": "0Kamil",
+    "repo": "samp-argon2",
+    "include_path": "include",
+    "resources": [
+        {
+            "name": "^samp-argon2-linux-x86.zip$",
+            "platform": "linux",
+            "archive": true,
+            "plugins": ["samp_argon2.so"]
+        },
+        {
+            "name": "^samp-argon2-windows-x86.zip$",
+            "platform": "windows",
+            "archive": true,
+            "plugins": ["samp_argon2.dll"]
+        }
+    ],
+    "runtime": {
+        "plugins": ["0Kamil/samp-argon2"]
+    }
+}
